@@ -6,7 +6,7 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] private Vector3 _direction;
 
-    void Update()
+    private void Update()
     {
         transform.Translate(_direction, Space.Self);
     }

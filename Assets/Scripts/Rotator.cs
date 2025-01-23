@@ -6,7 +6,7 @@ public class Rotator : MonoBehaviour
 {
     [SerializeField] private Vector3 _rotation;
     
-    void Update()
+    private void Update()
     {
         transform.Rotate(_rotation);
     }

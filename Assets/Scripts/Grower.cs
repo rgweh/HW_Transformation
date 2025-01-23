@@ -6,8 +6,8 @@ public class Grower : MonoBehaviour
 {
     [SerializeField] private float _speed;
     
-    void Update()
+    private void Update()
     {
-        transform.localScale += new Vector3(_speed, _speed, _speed);
+        transform.localScale += new Vector3.up * _speed;
     }
 }
